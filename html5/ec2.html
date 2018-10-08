@@ -1,6 +1,48 @@
 <!DOCTYPE html>
 <html>
     <body>
-<p>Hello</p>
+        <div class='wrapper'>
+            <p>The stadard form of a quadratic equation is : ax<sup>2</sup> + bx + c = 0</p>
+            <p>Please enter the coeficients a , b and c (Natural numbers only) </p>
+            <form id="frm1" action="ec2.html">
+                Value for a <input type="text" name="avalue"  id="avalue"><br>
+                Value for b <input type="text" name="bvalue" id="bvalue"><br>
+                Value for c <input type="text" name="cvalue" id="cvalue"><br><br>
+                <input type="button" value="Print the result" onclick="myFunction();">
+              </form>
+            
+            <div>
+                <p id='result'></p></div>
+            <div>
+                <p id='reset'></p></div>
+            </div>
     </body>
+   <script>
+       function isNatural (number ) {
+              var n = parseInt(number,10);
+              return n >=0 && n.toString() === number;
+       }
+       function myFunction() {
+    var x = document.getElementById("frm1");
+    var avalue = document.getElementById("avalue").value;
+    var bvalue = document.getElementById("bvalue").value;
+    var cvalue = document.getElementById("cvalue").value;
+    var text = "Enter natural numbers";
+    var i;
+    var boolEroareNumarIntrodus = false;
+    for (i = 0; i < x.length-1 ;i++) {
+        if  (isNatural (x.elements[i].value) === false) {
+            document.getElementById('result').innerHTML = text;
+            document.getElementById('frm1').reset();
+            boolEroareNumarIntrodus = true;
+        }
+    }
+    if (boolEroareNumarIntrodus === false) {
+        document.getElementById('result').innerHTML = "Ecuatia este de forma: "+avalue+"x<sup>2</sup> + "+bvalue+"x + "+cvalue+" = 0";
+        
+    }
+    s
+}
+   </script>
+
      </html>
