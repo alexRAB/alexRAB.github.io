@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+    <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="styleEC2.css">
+        </head>
     <body>
         <div class='wrapper'>
             <p>The stadard form of a quadratic equation is : ax<sup>2</sup> + bx + c = 0</p>
@@ -20,7 +24,7 @@
    <script>
        function isNatural (number ) {
               var n = parseInt(number,10);
-              return n >=0 && n.toString() === number;
+              return n.toString() === number;
        }
        function myFunction() {
     var x = document.getElementById("frm1");
@@ -39,7 +43,16 @@
     }
     if (boolEroareNumarIntrodus === false) {
         document.getElementById('result').innerHTML = "Ecuatia este de forma: "+avalue+"x<sup>2</sup> + "+bvalue+"x + "+cvalue+" = 0";
-        
+        var delta = bvalue*bvalue -4*avalue*cvalue;
+        if (delta < 0) {
+            document.getElementById('result').innerHTML = "The equation does not have real solutions . Delta = "+delta;
+        }
+        else if (delta == 0) {
+            document.getElementById('result').innerHTML = "The equation has two equal solutions<br>x1 = x2 = "+-(bvalue/2*avalue);
+        }
+        else {
+            document.getElementById('result').innerHTML = "The equation has two real and distinct solutions<br>x1 = "+(-bvalue+Math.sqrt(delta))/2*avalue+" and x2 = "+(-bvalue-Math.sqrt(delta))/2*avalue;
+        }
     }
     s
 }
