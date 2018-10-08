@@ -9,9 +9,9 @@
             <p>The stadard form of a quadratic equation is : ax<sup>2</sup> + bx + c = 0</p>
             <p>Please enter the coeficients a , b and c (Natural numbers only) </p>
             <form id="frm1" action="ec2.html">
-                Value for a <input type="text" name="avalue"  id="avalue"><br>
-                Value for b <input type="text" name="bvalue" id="bvalue"><br>
-                Value for c <input type="text" name="cvalue" id="cvalue"><br><br>
+                Value for a <input type="text" name="aValue"  id="aValue"><br>
+                Value for b <input type="text" name="bValue" id="bValue"><br>
+                Value for c <input type="text" name="cValue" id="cValue"><br><br>
                 <input type="button" value="Print the result" onclick="myFunction();">
               </form>
             
@@ -28,9 +28,9 @@
        }
        function myFunction() {
     var x = document.getElementById("frm1");
-    var avalue = document.getElementById("avalue").value;
-    var bvalue = document.getElementById("bvalue").value;
-    var cvalue = document.getElementById("cvalue").value;
+    var aValue = document.getElementById("aValue").value;
+    var bValue = document.getElementById("bValue").value;
+    var cValue = document.getElementById("cValue").value;
     var text = "Enter natural numbers";
     var i;
     var boolEroareNumarIntrodus = false;
@@ -42,19 +42,21 @@
         }
     }
     if (boolEroareNumarIntrodus === false) {
-        document.getElementById('result').innerHTML = "Ecuatia este de forma: "+avalue+"x<sup>2</sup> + "+bvalue+"x + "+cvalue+" = 0";
-        var delta = bvalue*bvalue -4*avalue*cvalue;
+        document.getElementById('result').innerHTML = "Ecuatia este de forma: "+aValue+"x<sup>2</sup> + "+bValue+"x + "+cValue+" = 0";
+        var delta = bValue*bValue -4*aValue*cValue;
         if (delta < 0) {
-            document.getElementById('result').innerHTML = "The equation does not have real solutions . Delta = "+delta;
+            document.getElementById('reset').innerHTML = "The equation does not have real solutions . Delta = "+delta;
         }
         else if (delta == 0) {
-            document.getElementById('result').innerHTML = "The equation has two equal solutions<br>x1 = x2 = "+-(bvalue/2*avalue);
+            document.getElementById('reset').innerHTML = "The equation has two equal solutions<br>x1 = x2 = "+-(bValue/2*aValue);
         }
         else {
-            document.getElementById('result').innerHTML = "The equation has two real and distinct solutions<br>x1 = "+(-bvalue+Math.sqrt(delta))/2*avalue+" and x2 = "+(-bvalue-Math.sqrt(delta))/2*avalue;
+            document.getElementById('reset').innerHTML = "The equation has two real and distinct solutions<br>x1 = "+(-bValue+Math.sqrt(delta))/2*aValue+" and x2 = "+(-bValue-Math.sqrt(delta))/2*aValue;
         }
     }
-    s
+    else{
+        document.getElementById('reset').innerHTML = "";
+    }
 }
    </script>
 
