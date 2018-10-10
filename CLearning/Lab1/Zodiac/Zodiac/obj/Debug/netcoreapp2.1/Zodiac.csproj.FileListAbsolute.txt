@@ -9,3 +9,14 @@ C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab1\Zodiac\Zod
 C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab1\Zodiac\Zodiac\obj\Debug\netcoreapp2.1\Zodiac.AssemblyInfo.cs
 C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab1\Zodiac\Zodiac\obj\Debug\netcoreapp2.1\Zodiac.dll
 C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab1\Zodiac\Zodiac\obj\Debug\netcoreapp2.1\Zodiac.pdb
+E:\GitHub\CSharp\alexRAB.github.io\CLearning\Lab1\Zodiac\Zodiac\bin\Debug\netcoreapp2.1\Zodiac.deps.json
+E:\GitHub\CSharp\alexRAB.github.io\CLearning\Lab1\Zodiac\Zodiac\bin\Debug\netcoreapp2.1\Zodiac.runtimeconfig.json
+E:\GitHub\CSharp\alexRAB.github.io\CLearning\Lab1\Zodiac\Zodiac\bin\Debug\netcoreapp2.1\Zodiac.runtimeconfig.dev.json
+E:\GitHub\CSharp\alexRAB.github.io\CLearning\Lab1\Zodiac\Zodiac\bin\Debug\netcoreapp2.1\Zodiac.dll
+E:\GitHub\CSharp\alexRAB.github.io\CLearning\Lab1\Zodiac\Zodiac\bin\Debug\netcoreapp2.1\Zodiac.pdb
+E:\GitHub\CSharp\alexRAB.github.io\CLearning\Lab1\Zodiac\Zodiac\obj\Debug\netcoreapp2.1\Zodiac.csprojAssemblyReference.cache
+E:\GitHub\CSharp\alexRAB.github.io\CLearning\Lab1\Zodiac\Zodiac\obj\Debug\netcoreapp2.1\Zodiac.csproj.CoreCompileInputs.cache
+E:\GitHub\CSharp\alexRAB.github.io\CLearning\Lab1\Zodiac\Zodiac\obj\Debug\netcoreapp2.1\Zodiac.AssemblyInfoInputs.cache
+E:\GitHub\CSharp\alexRAB.github.io\CLearning\Lab1\Zodiac\Zodiac\obj\Debug\netcoreapp2.1\Zodiac.AssemblyInfo.cs
+E:\GitHub\CSharp\alexRAB.github.io\CLearning\Lab1\Zodiac\Zodiac\obj\Debug\netcoreapp2.1\Zodiac.dll
+E:\GitHub\CSharp\alexRAB.github.io\CLearning\Lab1\Zodiac\Zodiac\obj\Debug\netcoreapp2.1\Zodiac.pdb

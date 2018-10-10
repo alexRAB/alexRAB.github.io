@@ -681,23 +681,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cloud-Soft\\.nuget\\packages\\": {},
+    "C:\\Users\\Alex\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cloud-Soft\\Documents\\GitHub\\alexRAB.github.io\\CLearning\\Lab1\\Zodiac\\Zodiac\\Zodiac.csproj",
+      "projectUniqueName": "E:\\GitHub\\CSharp\\alexRAB.github.io\\CLearning\\Lab1\\Zodiac\\Zodiac\\Zodiac.csproj",
       "projectName": "Zodiac",
-      "projectPath": "C:\\Users\\Cloud-Soft\\Documents\\GitHub\\alexRAB.github.io\\CLearning\\Lab1\\Zodiac\\Zodiac\\Zodiac.csproj",
-      "packagesPath": "C:\\Users\\Cloud-Soft\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cloud-Soft\\Documents\\GitHub\\alexRAB.github.io\\CLearning\\Lab1\\Zodiac\\Zodiac\\obj\\",
+      "projectPath": "E:\\GitHub\\CSharp\\alexRAB.github.io\\CLearning\\Lab1\\Zodiac\\Zodiac\\Zodiac.csproj",
+      "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+      "outputPath": "E:\\GitHub\\CSharp\\alexRAB.github.io\\CLearning\\Lab1\\Zodiac\\Zodiac\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Cloud-Soft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -705,8 +705,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://gallery.uipath.com/api/v2": {},
-        "https://www.myget.org/F/uipath/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {

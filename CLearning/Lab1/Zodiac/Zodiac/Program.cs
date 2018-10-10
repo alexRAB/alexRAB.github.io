@@ -10,12 +10,12 @@ namespace zodiac
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Introduceti numele ");
+            
             string nume;
-            nume = Console.ReadLine();
-            List<string> listaLuni = new List<string>();
             int zi, luna, an, contorIncercari = 0;
             bool esteZi, esteLuna, esteAn, dateIntroduseCorect = false;
+            Console.WriteLine("Introduceti numele ");
+            nume = Console.ReadLine();
             do
             {
                 Console.WriteLine(Environment.NewLine + "Va rugam sa introduceti datele intr-un mod corect!");
@@ -47,7 +47,7 @@ namespace zodiac
                 Console.WriteLine("Nu ai respectat instructiunile de trei ori la rand . Se opreste programul");
                 Console.ReadKey();
             }
-            Console.WriteLine("Ziua buna!" + nume + " . Ai " + (2018 - an) + " ani. Esti nascut in ziua de " + zi + ", in luna " + luna + ".");
+            Console.WriteLine("Ziua buna, " + nume + " ! Ai " + (2018 - an) + " ani. Esti nascut in ziua de " + zi + ", in luna " + luna + ".");
             Console.ReadKey();
         }
     }
