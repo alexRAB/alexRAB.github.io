@@ -44,11 +44,27 @@ namespace zodiac
             while (dateIntroduseCorect.Equals(false) && contorIncercari != 3);
             if (contorIncercari == 3 && dateIntroduseCorect.Equals(false))
             {
-                Console.WriteLine("Nu ai respectat instructiunile de trei ori la rand . Se opreste programul");
+                Console.WriteLine("Nu ai respectat instructiunile, de trei ori la rand . Se opreste programul");
                 Console.ReadKey();
+                return;
             }
-            Console.WriteLine("Ziua buna, " + nume + " ! Ai " + (2018 - an) + " ani. Esti nascut in ziua de " + zi + ", in luna " + luna + ".");
+            DateTime now = DateTime.Now;
+            DateTime ziNastere = new DateTime(an, luna, zi);
+            int varsta = now.Year - ziNastere.Year;
+            if (ziNastere > now.AddYears(-varsta)) varsta--;
+            Console.WriteLine("Ziua buna, " + nume + " ! "+ziNastere.ToString("dd-MMM-yyyy") + " este ziua ta de nastere . Ai " + varsta +" de ani.");
+            Console.WriteLine("Esti zodia " + GetZodie(ziNastere));
             Console.ReadKey();
+            Environment.Exit(1);
+        }      // end Main 
+
+        public static string GetZodie(DateTime oZiDeNastere)
+        {   // perioadele zodiilor luate de pe http://www.horoscopcafe.ro/perioadele-zodiilor/
+            int[] dataDeInceput = { 21, 20, 19, 21, 21, 21, 22, 23, 23, 23, 23, 22 };
+            string[] zodii = { "Capricorn", "Varsator", "Pesti", "Berbec", "Taur", "Gemeni", "Rac", "Leu", "Fecioara", "Balanta", "Scorpion", "Sagetator", "Capricorn" };
+            if (oZiDeNastere.Day < dataDeInceput[oZiDeNastere.Month - 1])
+                return zodii[oZiDeNastere.Month - 1];
+            return zodii[oZiDeNastere.Month];
         }
     }
 }
