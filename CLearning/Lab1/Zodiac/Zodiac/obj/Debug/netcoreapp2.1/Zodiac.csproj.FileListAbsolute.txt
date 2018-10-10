@@ -1,0 +1,11 @@
+C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab1\Zodiac\Zodiac\bin\Debug\netcoreapp2.1\Zodiac.deps.json
+C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab1\Zodiac\Zodiac\bin\Debug\netcoreapp2.1\Zodiac.runtimeconfig.json
+C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab1\Zodiac\Zodiac\bin\Debug\netcoreapp2.1\Zodiac.runtimeconfig.dev.json
+C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab1\Zodiac\Zodiac\bin\Debug\netcoreapp2.1\Zodiac.dll
+C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab1\Zodiac\Zodiac\bin\Debug\netcoreapp2.1\Zodiac.pdb
+C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab1\Zodiac\Zodiac\obj\Debug\netcoreapp2.1\Zodiac.csprojAssemblyReference.cache
+C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab1\Zodiac\Zodiac\obj\Debug\netcoreapp2.1\Zodiac.csproj.CoreCompileInputs.cache
+C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab1\Zodiac\Zodiac\obj\Debug\netcoreapp2.1\Zodiac.AssemblyInfoInputs.cache
+C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab1\Zodiac\Zodiac\obj\Debug\netcoreapp2.1\Zodiac.AssemblyInfo.cs
+C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab1\Zodiac\Zodiac\obj\Debug\netcoreapp2.1\Zodiac.dll
+C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab1\Zodiac\Zodiac\obj\Debug\netcoreapp2.1\Zodiac.pdb
