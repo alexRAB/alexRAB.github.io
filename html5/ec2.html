@@ -14,7 +14,7 @@
                 Value for c <input type="text" name="cValue" id="cValue"><br><br>
                 <input type="button" value="Print the result" onclick="myFunction();">
               </form>
-            
+
             <div>
                 <p id='result'></p></div>
             <div>
@@ -45,7 +45,7 @@
         document.getElementById('result').innerHTML = "Ecuatia este de forma: "+aValue+"x<sup>2</sup> + "+bValue+"x + "+cValue+" = 0";
         var delta = bValue*bValue -4*aValue*cValue;
         if (delta < 0) {
-            document.getElementById('reset').innerHTML = "The equation does not have real solutions . Delta = "+delta;
+            document.getElementById('reset').innerHTML = "The equation does not have real solutions . Delta = "+ delta;
         }
         else if (delta == 0) {
             document.getElementById('reset').innerHTML = "The equation has two equal solutions<br>x1 = x2 = "+-(bValue/2*aValue);
