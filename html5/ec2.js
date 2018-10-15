@@ -1,4 +1,4 @@
-document.getElementById("id_bussiness_version").innerHTML = "Bussiness version: 2018.10.15.2";
+document.getElementById("id_bussiness_version").innerHTML = "Bussiness version: 2018.10.15.3";
 
 function rezolva()
  {
@@ -24,6 +24,6 @@ function rezolva()
    //scriere
 
     document.getElementById("id_x1").innerHTML = x1_re + " + " + x1_im + "i";
-    document.getElementById("id_x1").innerHTML = x2_re + " + " + x2_im + "i";
+    document.getElementById("id_x2").innerHTML = x2_re + " + " + x2_im + "i";
 
  }
