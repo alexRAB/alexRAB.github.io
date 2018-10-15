@@ -3,9 +3,9 @@ document.getElementById("id_bussiness_version").innerHTML = "Bussiness version: 
 function rezolva()
  {
    // citire
-   var a = document.getElementById('id_a').Value;
-   var b = document.getElementById('id_b').Value;
-   var c = document.getElementById('id_c').Value;
+   var a = document.getElementById("id_a").Value;
+   var b = document.getElementById("id_b").Value;
+   var c = document.getElementById("id_c").Value;
    // rezolvare
    var delta = b * b -4 * a * c;
    var x1_re,x1_im,x2_re,x2_im;
@@ -23,7 +23,7 @@ function rezolva()
    }
    //scriere
 
-    document.getElementById('id_x1').innerHTML = x1_re + " + " + x1_im + "i";
-    document.getElementById('id_x1').innerHTML = x2_re + " + " + x2_im + "i";
+    document.getElementById("id_x1").innerHTML = x1_re + " + " + x1_im + "i";
+    document.getElementById("id_x1").innerHTML = x2_re + " + " + x2_im + "i";
 
  }
