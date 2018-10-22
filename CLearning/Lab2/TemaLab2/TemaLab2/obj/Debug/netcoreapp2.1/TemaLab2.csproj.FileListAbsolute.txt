@@ -1,0 +1,11 @@
+C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab2\TemaLab2\TemaLab2\obj\Debug\netcoreapp2.1\TemaLab2.csproj.CoreCompileInputs.cache
+C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab2\TemaLab2\TemaLab2\obj\Debug\netcoreapp2.1\TemaLab2.AssemblyInfoInputs.cache
+C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab2\TemaLab2\TemaLab2\obj\Debug\netcoreapp2.1\TemaLab2.AssemblyInfo.cs
+C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab2\TemaLab2\TemaLab2\bin\Debug\netcoreapp2.1\TemaLab2.deps.json
+C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab2\TemaLab2\TemaLab2\bin\Debug\netcoreapp2.1\TemaLab2.runtimeconfig.json
+C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab2\TemaLab2\TemaLab2\bin\Debug\netcoreapp2.1\TemaLab2.runtimeconfig.dev.json
+C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab2\TemaLab2\TemaLab2\bin\Debug\netcoreapp2.1\TemaLab2.dll
+C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab2\TemaLab2\TemaLab2\bin\Debug\netcoreapp2.1\TemaLab2.pdb
+C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab2\TemaLab2\TemaLab2\obj\Debug\netcoreapp2.1\TemaLab2.dll
+C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab2\TemaLab2\TemaLab2\obj\Debug\netcoreapp2.1\TemaLab2.pdb
+C:\Users\Cloud-Soft\Documents\GitHub\alexRAB.github.io\CLearning\Lab2\TemaLab2\TemaLab2\obj\Debug\netcoreapp2.1\TemaLab2.csprojAssemblyReference.cache

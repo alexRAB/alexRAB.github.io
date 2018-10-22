@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cloud-Soft\\Documents\\GitHub\\alexRAB.github.io\\CLearning\\Lab1\\Zodiac\\Zodiac\\Zodiac.csproj",
-      "projectName": "Zodiac",
-      "projectPath": "C:\\Users\\Cloud-Soft\\Documents\\GitHub\\alexRAB.github.io\\CLearning\\Lab1\\Zodiac\\Zodiac\\Zodiac.csproj",
+      "projectUniqueName": "C:\\Users\\Cloud-Soft\\Documents\\GitHub\\alexRAB.github.io\\CLearning\\Lab2\\TemaLab2\\TemaLab2\\TemaLab2.csproj",
+      "projectName": "TemaLab2",
+      "projectPath": "C:\\Users\\Cloud-Soft\\Documents\\GitHub\\alexRAB.github.io\\CLearning\\Lab2\\TemaLab2\\TemaLab2\\TemaLab2.csproj",
       "packagesPath": "C:\\Users\\Cloud-Soft\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cloud-Soft\\Documents\\GitHub\\alexRAB.github.io\\CLearning\\Lab1\\Zodiac\\Zodiac\\obj\\",
+      "outputPath": "C:\\Users\\Cloud-Soft\\Documents\\GitHub\\alexRAB.github.io\\CLearning\\Lab2\\TemaLab2\\TemaLab2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

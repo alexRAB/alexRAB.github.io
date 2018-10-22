@@ -29,7 +29,7 @@ public class Main extends Application {
 			javafx.scene.paint.Color foregorund = javafx.scene.paint.Color.rgb(255, 255, 255, 0.9);
 	// rectangle
 			
-			Rectangle box = new Rectangle(320,200);
+			Rectangle box = new Rectangle(300,300);
 			box.setX(0);
 			box.setY(0);
 			box.setArcHeight(15);
