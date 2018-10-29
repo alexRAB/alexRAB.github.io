@@ -1,4 +1,4 @@
-document.getElementById("id_bussiness_version").innerHTML = "Bussiness version: 2018.10.22.1";
+document.getElementById("id_bussiness_version").innerHTML = "Bussiness version: 2018.10.29.0";
 document.getElementById("id_button").addEventListener("click", rezolva);
 function t_ec2()
 {
@@ -12,7 +12,7 @@ this.citire = function()
 //---------------------------------------
  this.rezolvare = function()
 {
-  var delta = this.b * this.b -4 * this.a * this.c;
+  var delta = this.b * this.b -(4 * this.a * this.c);
   var x1_re, x2_re, x1_im, x2_im;
 
   if (delta >= 0 )
