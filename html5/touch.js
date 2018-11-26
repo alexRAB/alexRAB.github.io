@@ -1,4 +1,4 @@
-document.getElementById("id_bussiness_version").innerHTML = "Bussiness version: 2018.11.26.10";
+document.getElementById("id_bussiness_version").innerHTML = "Bussiness version: 2018.11.26.1";
 
 var canvas = document.getElementById("id_canvas");
 
