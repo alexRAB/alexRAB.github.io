@@ -30,7 +30,7 @@ function validateLocation(){
               {
                  var latlon = lati + "," + longi;
                  var keyGoogleApi = "AIzaSyCdGcSBFqiWpAzJY0IfVd8KhFAGmgEuQvU";
-                 var img_url = "https://maps.googleapis.com/maps/api/staticmap?center= "+latlon+"&zoom=13&size=400x300&scale=1&markers=color:pink%7Csize:normal%7C"+lati+","+longi+"&sensor=false&key="+keyGoogleApi+"";
+                 var img_url = "https://maps.googleapis.com/maps/api/staticmap?center= "+latlon+"&zoom=14&size=400x300&scale=1&maptype=hybrid&markers=color:pink%7Csize:normal%7C"+lati+","+longi+"&sensor=false&key="+keyGoogleApi+"";
                  document.getElementById("newMap").innerHTML = "<img src='"+img_url+"' class='img-fluid' >"; 
               }
           else{
